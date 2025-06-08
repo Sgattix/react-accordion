@@ -105,3 +105,7 @@ const App = () => {
 
 export default App;
 ```
+
+## Demo (Default behaviour)
+![image](https://github.com/user-attachments/assets/38c19fbf-db76-4643-be62-89d3b6a7413f)
+
