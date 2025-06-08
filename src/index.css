@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Wix Madefor Display", sans-serif;
+}
+
+.open-animation {
+  animation: open-accordion-question 500ms ease;
+}
+
+@keyframes open-accordion-question {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 100%;
+    transform: translateY(0);
+  }
+}
